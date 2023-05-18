@@ -24,7 +24,7 @@ body {
 .list {
   list-style: none;
 }
-.logo__second-element {
+.logo__header-element {
   color: #2e2f42;
 }
 .header__menu-link {
@@ -39,6 +39,9 @@ body {
 }
 .header__address {
   font-style: normal;
+}
+.header__contact-link {
+  color: #434455;
 }
 .header__contact-link:hover {
   color: #404bbf;
@@ -55,9 +58,12 @@ body {
   font-size: 56px;
   line-height: 107%;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .solution__btn {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -67,10 +73,14 @@ body {
 .solution__btn:hover {
   background-color: #404bbf;
 }
+.solution__btn:focus {
+  background-color: #404bbf;
+}
 .details__menu-title {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .about__title,
 .team__title {
@@ -80,6 +90,7 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 .team {
   background-color: #f4f4fd;
@@ -90,6 +101,7 @@ body {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 .team__images-item {
   background-color: #fff;
@@ -97,16 +109,18 @@ body {
 .footer {
   background-color: #2e2f42;
 }
+.logo__footer-element {
+  color: #f4f4fd;
+}
 .navigation__btn {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
-  border: 1px solid #e7e9fc;
   background-color: #f4f4fd;
   color: #4d5ae5;
-  border-radius: 4px;
-  padding: 12px 24px;
 }
 .navigation__btn:hover {
   background-color: #404bbf;
@@ -120,6 +134,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .gallery__list-text {
   color: #434455;
