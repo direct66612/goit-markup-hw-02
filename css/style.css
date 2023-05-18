@@ -1,10 +1,13 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+:root {
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+body {
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #fff;
+  letter-spacing: 0.02em;
 }
 .logo {
   text-transform: uppercase;
@@ -31,10 +34,16 @@ body {
 .header__menu-link:hover {
   color: #404bbf;
 }
+.header__menu-link:focus {
+  color: #404bbf;
+}
 .header__address {
   font-style: normal;
 }
 .header__contact-link:hover {
+  color: #404bbf;
+}
+.header__contact-link:focus {
   color: #404bbf;
 }
 .solutions {
@@ -82,7 +91,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-.team__images-list {
+.team__images-item {
   background-color: #fff;
 }
 .footer {
@@ -98,6 +107,14 @@ body {
   color: #4d5ae5;
   border-radius: 4px;
   padding: 12px 24px;
+}
+.navigation__btn:hover {
+  background-color: #404bbf;
+  color: #fff;
+}
+.navigation__btn:focus {
+  background-color: #404bbf;
+  color: #fff;
 }
 .gallery__list-title {
   font-weight: 500;
